@@ -6,7 +6,7 @@ function paresWeb(query){
             var el = $( '<div></div>' );
             el.html(data);
             var attrs = $('p[class=explanation]', el);
-            for (var i = 0; i < attrs.length; i++) {
+            for (var i = 0; i < 3; i++) {
                   alert(attrs.eq(i).html());
             };
 
