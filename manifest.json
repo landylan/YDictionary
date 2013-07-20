@@ -10,12 +10,13 @@
     "default_icon": "image/dictionary.png"
   },
   "background": {
-    "scripts": ["jquery-1.9.1.min.js", "background.js"]
+    "scripts": ["js/jquery-1.9.1.min.js", "background.js"]
   }, 
   "content_scripts": [
         {
             "all_frames": true,
-            "js": [ "jquery-1.9.1.min.js", "content.js" ],
+            "js": [ "js/jquery-1.9.1.min.js","js/jquery-ui-1.10.3.custom.min.js", "content.js" ],
+            "css": ["css/smoothness/jquery-ui-1.10.3.custom.min.css"],
             "matches": [ "http://*/*", "https://*/*" ]
         }
   ],

@@ -3,7 +3,7 @@
 **/
 
 
-var controller = true;
+var controller = false;
 function onAndoff() {
    if(controller){
         chrome.browserAction.setBadgeText({text: "ON"});
