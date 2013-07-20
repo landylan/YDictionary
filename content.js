@@ -17,9 +17,7 @@ function paresWeb(query, event){
             var x = box.x, y = box.y;
             dummy.parentNode.removeChild(dummy);
             */
-            //for (var i = 0; i < attrs.length; i++) {
                 $(".result_content").tooltip({content: attrs.eq(0).html()});
-           // };
                 setTimeout(function(){
                     dummy.parentNode.removeChild(dummy);
                 },3000);
