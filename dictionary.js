@@ -1,5 +1,5 @@
 /**
-  @author ArvinH
+  @author ArvinH & HsiHo
 **/
 function getSelText() {
     var txt = '';
